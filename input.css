@@ -169,10 +169,10 @@
 .footer__button{
     @apply bg-white text-black font-bold py-1 px-1 rounded-md;
 }
-.footer-down__form{
+.subscibe__form{
     @apply bg-[#2B2E3C] w-fit m-auto  rounded-[12px] ;
 }
-.footer-down__input{
+.subscribe__input{
     @apply text-black outline-none bg-transparent p-[12px] placeholder:text-[white] placeholder:opacity-[0.5] text-[16px] pl-[12px];
 }
 .button--background{
