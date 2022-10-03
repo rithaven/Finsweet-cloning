@@ -122,7 +122,7 @@
     @apply grid grid-cols-5 m-auto w-fit  p-[40px] pt-[50px] pb-[50px] gap-[40px] rounded-[24px] mr-[5%] ml-[5%] mt-[50px];
 }
 .sales{
-    @apply mr-[5%] ml-[5%]  mt-[120px] gap-[40px] grid grid-cols-2 mb-[100px]  py-10 px-7 bg-gray-100 rounded-3xl;
+    @apply mr-[5%] ml-[5%]  mt-[120px] gap-[40px] grid grid-cols-2 mb-[100px]  py-10 px-7 rounded-3xl;
 }
 .feature{
     @apply text-center font-bold  text-6xl ;
