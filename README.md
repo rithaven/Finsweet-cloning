@@ -1,1 +1,1 @@
-#Cloning FINSWEET website.
+#Cloning FINSWEET website
