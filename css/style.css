@@ -1238,15 +1238,20 @@ video {
   font-weight: 700;
 }
 
-.footer-end {
+.copy-right {
   margin-top: 50px;
   display: flex;
-  width: auto;
+  width: 100%;
   flex-wrap: wrap;
+  text-align: center;
   opacity: 0.5;
 }
 
-.footer-end__line {
+.copy-right__text {
+  text-align: center;
+}
+
+.copy-right__line {
   margin: auto;
   width: 400px;
   text-align: center;
