@@ -4,20 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap"
-      rel="stylesheet"/>
-
-    <title>Home</title>
-
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>About Us</title>
   </head>
   <body class="font-nunito">
     <div class="header">
       <div class="navbar">
         <div class="navbar__container">
-          <div class="navbar__logo">
-            <img class="navbar__image" src="images/Vector.png " alt="" />
+          <div class="navbar__logo flex items-center gap-2">
+            <img class="navbar__image w-20" src="images/Vector.png " alt="" />
           </div>
           <ul class="navbar__lists">
             <li class="navbar__menu">
@@ -30,13 +30,13 @@
               <a href="#" class="navbar__links">Pricing</a>
             </li>
             <li class="navbar__menu">
-              <a href="About Us.html" class="navbar__links">About Us</a>
+              <a href="#" class="navbar__links">About Us</a>
             </li>
             <li class="navbar__menu">
               <a href="#" class="navbar__links">Blog</a>
             </li>
             <li class="navbar__menu">
-              <a href="Contact.html" class="navbar__links">Contact</a>
+              <a href="#" class="navbar__links">Contact</a>
             </li>
             <li class="navbar__menu navbar__menu--button">
               <a href="#" class="navbar__links">Free trial</a>
@@ -45,31 +45,25 @@
         </div>
       </div>
       <div class="content">
-        <div class="content__background"></div>
         <div class="content__container">
-          
           <h1 class="content__title">
             The Best Software to Grow your Sales and Services
           </h1>
-          <!-- <span class="content__background"> -->
           <p class="content__text">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat.
           </p>
           <div class="content-form">
-            <div class="content-form content-form--background">
             <input placeholder="Enter your Email" class="content-form__input" />
             <button class="content-form__button">Get Free trial</button>
           </div>
-          </div>
-        <!-- </span> -->
+          <img class="content__img" src="images/Dashboard image.png" />
         </div>
-        <img class="content__img" src="images/Dashboard image.png" />
       </div>
       <div class="about-us">
-        <p class="about-us__title">High-quality</p>
-        <p class="about-us__subtitle">
+        <p class="about-us__title mt-10 py-3 text-2xl">High-quality</p>
+        <p class="title">
           We have the Best Solution <br />
           for your Business
         </p>
@@ -78,7 +72,7 @@
         <div class="solutions__item">
           <img src="images/tik.png" class="solutions__img" />
           <p class="solutions__title">High security to protect from piracy</p>
-          <p class="solutions__subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+          <p class="solutions__description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
         </div>
         <div class="solutions__item">
           <img src="images/like.png" class="solutions__img" />
@@ -93,8 +87,8 @@
     </div>
     <section class="more">
       <div class="more__item more__item--left">
-        <p class="more__subtitle">Why should you work with us?</p>
-        <p class="more__title">To upscale your business to the next level</p>
+        <p class="text-indigo-500  py-10 text-2xl font-bold">Why should you work with us?</p>
+        <p class="title">To upscale your business to the next level</p>
         <p class="more__desc more__desc--small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua invidunt ut labore.</p>
       </div>
       <div class="more__item more__item--right">
@@ -115,8 +109,8 @@
 
      <section class="chart">
       <div class="chart__item chart__item--left">
-        <p class="chart__title">More impressions, more conversions</p>
-        <p class="chart__subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua invidunt ut labore.</p>
+        <p class="title">more impressions, more conversions</p>
+        <p class="chart__info-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua invidunt ut labore.</p>
         <button class="chart__button">
           Get Free trial
         </button>      </div>
@@ -134,8 +128,8 @@
  </section>
  <section class="sales">
     <div class="sales__item sales__item--left">
-      <p class="sales__subtitle">Discover More</p>
-      <p class="sales__title">Analyze your sales and marketing leads</p>
+      <p class="small-title ">Discover More</p>
+      <p class="title">Analyze your sales and marketing leads</p>
       <p class="sales__desc sales__desc--small">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua invidunt ut labore.</p>
     </div>
   <div class="sales__item sales__item--right">
@@ -188,15 +182,18 @@
     <p class="testimony__role">CEO</p>
   </div>
   <div class="testimony__item">
-    <p class="testimony__title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+    <p class="testimony__desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
     <img src="images/three.png" class="testimony__img" />
     <p class="testimony__name">Ron Wood</p>
     <p class="testimony__role">CEO</p>
   </div>
 
 </section>
+
 <footer class="footer">
-  <div class="content__background"></div>
+  <div class="footer__background">
+
+  </div>
   <p class="title title--middle">
     Are you ready to grow your <br/> business with us?
   </p>
@@ -252,7 +249,7 @@
               <li class="footer-down__link">Blog</li>
           </ul>
       </div>
-      <div class="footer-down__list footer-down__list--right">
+      <div class="footer-down__list">
           <img src="images/logo-white.png" class="footer__logo" />
           <p class="footer__text">Subscribe to our Newsletter</p>
           <div class="footer-down__form">
@@ -261,10 +258,10 @@
           </div>
       </div>
   </div>
-  <div class="copyright">
-    <hr class="copyright__line"/>
+  <div class="footer-end">
+    <hr class="footer-end__line"/>
     <p>© Copyright Finsweet 2022</p>
-    <hr class="copyright__line"/>
+    <hr class="footer-end__line"/>
   </div>
   </div>
 </footer>
