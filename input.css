@@ -251,7 +251,7 @@ body{
 .hero {
   @apply mr-10 ml-10 bg-slate-50 mt-28 p-14 rounded-3xl;
 }
-.hero--title {
+.hero__title {
   @apply text-center text-3xl font-bold;
 }
 .hero__card {
